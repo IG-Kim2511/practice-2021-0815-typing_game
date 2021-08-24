@@ -1,0 +1,105 @@
+:root {
+  --naver-color: #0eae44;
+  --kakao-color: #fee101;
+
+  --lettersapcing: 0.1rem;
+
+  --size-border-radius: 0.5rem;
+
+  --animation-duration: 300ms;
+}
+
+/*  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+
+  background-color: var(--kakao-color);
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+/* js 2 */
+.answer {
+  visibility: hidden;
+  color: red;
+}
+
+.word-display {
+  margin-top: 3rem;
+  font-size: 80px;
+  color: var(--kakao-color);
+}
+
+.word-input-box {
+  margin-top: 2rem;
+}
+
+.word-input {
+  padding: 0.5rem;
+  width: 300px;
+}
+
+/* js ? */
+.word-input-block {
+  background-color: grey;
+
+  cursor: not-allowed;
+}
+
+.game-info {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.time,
+.score,
+.score_wrong {
+  font-size: 30px;
+}
+
+.button{
+    width: 200px;
+    height: 35px;
+    background-color: var(--kakao-color);
+    color: black;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+
+}
+
+.button_stop{
+    width: 200px;
+    height: 35px;
+    background-color: var(--kakao-color);
+    color: black;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+
+}
+
+/* js ? */
+.loading{
+
+    background-color: grey;
+    cursor: not-allowed;
+}
