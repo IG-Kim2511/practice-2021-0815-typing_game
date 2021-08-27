@@ -60,7 +60,7 @@ function checkMatch(params) {
             return
             
         }
-        
+        const randomIndex = Math.floor(Math.random() * words.length)
     }
  
     
@@ -98,4 +98,9 @@ function run(params) {
 
     time = gameTime;
     tieminterval 
+
+    wordInput.focus();
+    scoreDisplay.innerHTML=0;
+
+    buttonChange("ing");
 }
